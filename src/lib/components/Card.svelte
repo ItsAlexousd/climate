@@ -8,6 +8,7 @@
   <div class="card-body">
     <img class="w-1/2" src={image} alt="Description" />
     <h2 class="card-title pb-4">{title}</h2>
-    <p>{description}</p>
+    <p class="pb-4">{description}</p>
+    <button class="btn btn-wide w-auto">En savoir plus</button>
   </div>
 </div>

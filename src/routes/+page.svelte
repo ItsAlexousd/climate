@@ -173,10 +173,10 @@
 
   .circle-animation {
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 100%;
-    width: 60%;
-    height: 76%;
+    width: 35em;
+    height: 35em;
     background: transparent;
     border-radius: 50%;
     transform: translate(-50%, -50%);
@@ -195,7 +195,7 @@
   .above-circle {
     padding-top: 5%;
     transition: box-shadow 1s;
-    height: 100vh; /* Hauteur pour occuper toute la page */
+    height: auto; /* Hauteur pour occuper toute la page */
     z-index: 3500; /* z-index inférieur à celui de .circle */
     position: relative;
     display: flex; /* Utilise Flexbox pour aligner les enfants */
