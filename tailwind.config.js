@@ -17,21 +17,21 @@ export default {
   daisyui: {
     themes: [
       {
-        theme1: {
+        ocean: {
           "primary": "#0082f2",
           "secondary": "#003562",
           "accent": "#28475C",
           "neutral": "#3d4451",
           "base-100": "#01182B",
         },
-        theme2: {
+        deforestation: {
           "primary": "#61915E",
           "secondary": "#255522",
           "accent": "#28475C",
           "neutral": "#3d4451",
           "base-100": "#071C05",
         },
-        theme3: {
+        globalWarming: {
           "primary": "#ed6034",
           "secondary": "#802525",
           "accent": "#28475C",
