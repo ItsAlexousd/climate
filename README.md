@@ -20,4 +20,4 @@ Le projet dépend des technologies et scripts suivants :
 
 ## Installation et déploiement
 
-Pour visualiser le site web : [Climate](https://climate-theta.vercel.app/)
+Pour visualiser le site web (déployé sur Vercel) : [Climate](https://climate-theta.vercel.app/)
