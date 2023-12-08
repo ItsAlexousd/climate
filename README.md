@@ -20,4 +20,4 @@ Le projet dépend des technologies et scripts suivants :
 
 ## Installation et déploiement
 
-Pour visualiser le site web : [Climate]{https://www.example.com}
+Pour visualiser le site web : [Climate](https://www.example.com)
