@@ -1,38 +1,23 @@
-# create-svelte
+# Site Web sur le Changement Climatique
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Description
 
-## Creating a project
+Ce document offre une vue d'ensemble et une documentation pour le site web dédié à la sensibilisation et à l'éducation sur le changement climatique. Ce site a été conçu pour fournir des informations fiables et scientifiquement fondées sur les causes, les impacts, les solutions et les actions individuelles et collectives liées au changement climatique.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technologie
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Le site est construit avec les technologies web de base, notamment HTML, CSS et JavaScript. Il utilise également le framework Svelte et avec un de ces meta-framework, SvelteKit.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Dépendances
 
-## Developing
+Le projet dépend des technologies et scripts suivants :
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- HTML5 pour la structure de base de la page.
+- CSS3 pour le style et la mise en page.
+- JavaScript pour les interactions dynamiques et la navigation fluide.
+- Svelte pour la gestion de component pour le FrontEnd.
+- SvelteKit pour la gestion du back/REST.
 
-```bash
-npm run dev
+## Installation et déploiement
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Pour visualiser le site web : [Climate](www.example.com)
