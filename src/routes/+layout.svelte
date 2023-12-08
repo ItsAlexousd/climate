@@ -1,7 +1,9 @@
 <script lang="ts">
+  import '../app.css';
+  import logo from '$lib/assets/logo.png';
 </script>
 
-<div class="navbar bg-base-100" style="background-color: {primaryColor}; transition: background-color 2.25s">
+<div class="navbar bg-base-100" style="transition: background-color 2.25s;">
   <div class="flex-1">
     <a class="btn btn-link" href="/">
       <img src={logo} alt="Climate Logo" width="150" />
@@ -9,13 +11,18 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="/geoData">geoData</a></li>
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/geo-data">Geo Data</a></li>
     </ul>
   </div>
 </div>
 
-<footer class="footer footer-center p-10 bg-base-200 text-primary-content" style="background-color: {primaryColor}; transition: background-color 2.25s;">
+<slot />
+
+<footer
+  class="footer footer-center p-10 bg-base-100 text-white"
+  style="transition: background-color 2.25s;"
+>
   <aside>
     <img src={logo} alt="Climate Logo" width="150" />
     <p class="font-bold">
